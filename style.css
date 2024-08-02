@@ -1,7 +1,21 @@
-html, body {
-    margin: 0;
-    padding: 0;
-  }
-  canvas {
-    display: block;
-  }
+/* styles.css */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #BEB7A4; /* Light cyan background */
+  font-family: Arial, sans-serif;
+}
+
+canvas {
+  border: 2px solid #902D41; /* Dark cyan border */
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 32pt;
+  color: #00796b; /* Dark cyan text color */
+}
